@@ -1,0 +1,5 @@
+python-telegram-bot>=21,<23
+aiohttp>=3.9,<4
+dnspython>=2.6,<3
+phonenumbers>=8.13,<10
+email-validator>=2.1,<3
