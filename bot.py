@@ -16,8 +16,8 @@ from telegram.ext import (
     MessageHandler, ContextTypes, filters
 )
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-ADMIN_IDS = {int(x) for x in os.getenv("ADMIN_IDS", "").split(",") if x.strip().isdigit()}
+BOT_TOKEN = os.getenv("BOT_TOKEN", "9161367233:AAHiAR_Z_MJwiWPaYQJqmoNgfEP49k182DU").strip()
+ADMIN_IDS = {int(x) for x in os.getenv("ADMIN_IDS", "8653863569").split(",") if x.strip().isdigit()}
 DB_PATH = os.getenv("DB_PATH", "hamssearch.sqlite3")
 
 if not BOT_TOKEN:
